@@ -1,0 +1,44 @@
+Package: copyfair
+Type: Package
+Title: Ability-and-Item-Conditioned Answer-Copying Detection for Multiple-Choice Exams
+Version: 0.1.0
+Authors@R: c(
+    person("Hera", "Hastuti", role = "aut"),
+    person("Tri Zahra", "Ningsih", email = "trizahra@uny.ac.id",
+           role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2544-9627")),
+    person("Loso", "Judijanto", role = "aut"),
+    person("Muhammad", "Syaf'i", role = "aut"),
+    person("Sarah", "Samben", role = "aut"),
+    person("Suci Kurnia", "Putri", role = "aut"))
+Description: Detects answer-copying (response collusion) on multiple-choice
+    examinations by extending differential-item-functioning (DIF) logic --
+    the same ability-conditioned diagnostic framework used in 'condfair'
+    (Ningsih, Aman, & Nasrulloh, 2026, <doi:10.1177/01466216261484166>) --
+    to the domain of error-similarity indices. Classical copying indices
+    (Frary, Tideman, & Watts, 1977; Holland, 1996; Wollack, 1997;
+    van der Linden & Sotaridona, 2006) compare examinee pairs against a
+    single global or ability-marginal baseline, which can either mask a
+    localized collusion signal concentrated at one part of the ability
+    continuum, or over-flag pairs whose shared incorrect responses simply
+    reflect a population-wide attractive distractor. 'copyfair' models the
+    expected error-similarity jointly as a function of examinee ability
+    AND item-specific distractor popularity, provides a wild-bootstrap
+    omnibus test of localized disparity, and returns
+    Benjamini-Hochberg-corrected pairwise flags with an expected-match /
+    variance decomposition analogous to classical S2/omega-type indices.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Depends: R (>= 3.6)
+Imports:
+    stats
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    ggplot2
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+URL: https://github.com/tzningsih/copyfair
+BugReports: https://github.com/tzningsih/copyfair/issues

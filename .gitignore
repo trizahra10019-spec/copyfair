@@ -1,0 +1,17 @@
+# R build artifacts
+*.Rcheck/
+*.tar.gz
+.Rhistory
+.RData
+.Rproj.user/
+
+# Restricted / licensed data -- must be obtained separately by each user,
+# never committed to this repository (see analysis/README or script headers)
+*.sav
+asaidnr3.sav
+*_long.csv
+*_pairwise_results.csv
+
+# OS files
+.DS_Store
+Thumbs.db
