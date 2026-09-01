@@ -71,7 +71,7 @@ manuscript:
 
 If you use `copyfair`, please cite:
 
-> Hastuti, H., Ningsih, T. Z., Judijanto, L., Syaf'i, M., Samben, S., &
+> Hastuti, H., Ningsih, T. Z., Judijanto, L., Syaf'i, A., Samben, S., &
 > Putri, S. K. (2026). copyfair: An R package for item- and
 > ability-conditioned answer-copying detection in multiple-choice
 > examinations. *Applied Psychological Measurement*. [manuscript in
@@ -86,4 +86,4 @@ and the companion package:
 
 ## License
 
-MIT © Hera Hastuti, Tri Zahra Ningsih, Loso Judijanto, Muhammad Syaf'i, Sarah Samben, Suci Kurnia Putri
+MIT © Hera Hastuti, Tri Zahra Ningsih, Loso Judijanto, Ahmad Syaf'i, Sarah Samben, Suci Kurnia Putri
