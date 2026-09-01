@@ -11,7 +11,7 @@ examinees independently select the same wrong option because it
 reflects a common misconception rather than copying.
 
 `copyfair` extends the ability-conditioned diagnostic logic of
-[condfair](https://github.com/tzningsih/condfair) (Ningsih, Aman, &
+[condfair](https://github.com/condfair/condfair) (Ningsih, Aman, &
 Nasrulloh, 2026, *Applied Psychological Measurement*) to this problem:
 it models the expected number of matching incorrect responses jointly
 as a function of examinee ability **and** item-specific distractor
@@ -22,7 +22,7 @@ procedure, and returns Benjamini-Hochberg-corrected pairwise flags.
 
 ```r
 # install.packages("remotes")
-remotes::install_github("tzningsih/copyfair")
+remotes::install_github("trizahra10019-spec/copyfair")
 ```
 
 ## Quick start
@@ -71,10 +71,11 @@ manuscript:
 
 If you use `copyfair`, please cite:
 
-> Ningsih, T. Z., Aman, A., & Nasrulloh, A. (2026). copyfair: An R
-> package for item- and ability-conditioned answer-copying detection
-> in multiple-choice examinations. *Applied Psychological
-> Measurement*. [manuscript in preparation]
+> Hastuti, H., Ningsih, T. Z., Judijanto, L., Syaf'i, M., Samben, S., &
+> Putri, S. K. (2026). copyfair: An R package for item- and
+> ability-conditioned answer-copying detection in multiple-choice
+> examinations. *Applied Psychological Measurement*. [manuscript in
+> preparation]
 
 and the companion package:
 
@@ -85,4 +86,4 @@ and the companion package:
 
 ## License
 
-MIT © Tri Zahra Ningsih, Aman Aman, Ahmad Nasrulloh
+MIT © Hera Hastuti, Tri Zahra Ningsih, Loso Judijanto, Muhammad Syaf'i, Sarah Samben, Suci Kurnia Putri

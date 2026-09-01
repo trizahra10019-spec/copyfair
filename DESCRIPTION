@@ -40,5 +40,5 @@ Suggests:
     ggplot2
 VignetteBuilder: knitr
 Config/testthat/edition: 3
-URL: https://github.com/tzningsih/copyfair
-BugReports: https://github.com/tzningsih/copyfair/issues
+URL: https://github.com/trizahra10019-spec/copyfair
+BugReports: https://github.com/trizahra10019-spec/copyfair/issues
