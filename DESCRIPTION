@@ -7,7 +7,7 @@ Authors@R: c(
     person("Tri Zahra", "Ningsih", email = "trizahra.2023@student.uny.ac.id",
            role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2544-9627")),
     person("Loso", "Judijanto", role = "aut"),
-    person("Muhammad", "Syaf'i", role = "aut"),
+    person("Ahmad", "Syaf'i", role = "aut"),
     person("Sarah", "Samben", role = "aut"),
     person("Suci Kurnia", "Putri", role = "aut"))
 Description: Detects answer-copying (response collusion) on multiple-choice
